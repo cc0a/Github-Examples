@@ -1,14 +1,14 @@
-name: Schedule Test
+# name: Schedule Test
 
-on:
-  schedule:
-    - cron: '37 * * * *'
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: '37 * * * *'
+#   workflow_dispatch:
 
-jobs:
-  hello_world:
-    runs-on: ubuntu-latest
+# jobs:
+#   hello_world:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Echo current time
-        run: echo "The current server time is $(date)"
+#     steps:
+#       - name: Echo current time
+#         run: echo "The current server time is $(date)"
